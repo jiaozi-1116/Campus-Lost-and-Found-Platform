@@ -1,0 +1,140 @@
+h2 {
+    color: pink;
+}
+.base{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/components/week-10/image/background.jpg");
+    background-size: 100%;
+}
+.loginAndRegist{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.loginArea{
+    background-color: rgba(255,255,255,0.8);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 400px;
+    width: 350px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.registArea{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.showInfo{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    z-index:2;
+    top: 0;
+    right: 0;
+    background-image: url("/src/components/week-10/image/flowers.jpg");
+    background-size: 90%;
+}
+.showInfo:hover{
+    background-size: 100%;
+    background-position: -50px -50px;
+}
+.title{
+    width: 70%;
+    flex:1;
+    border-bottom: 1px solid #257B5E;
+    display: flex;
+    align-items: center;
+    color: #257B5E;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+#aaa{
+    transition: 0.3s linear;
+}
+.pwdArea{
+    width: 100%;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pwdArea input{
+    outline: none;
+    height: 30%;
+    border-radius:13px ;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid gray;
+}
+.pwdArea input:focus{
+    border: 2px solid #257B5E;
+}
+.btnArea{
+    flex:1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rigestTitle{
+    width: 70%;
+    flex: 1;
+    color: #257B5E;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #257B5E;
+}
+.registForm{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    color: #257B5E;
+    font-size: 16px;
+}
+
+.registForm input{
+    outline: none;
+    height: 30%;
+    border-radius:13px ;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid gray;
+}
+.registForm input:focus{
+    border: 2px solid #257B5E;
+}
+#elselect:focus{
+    border: 2px solid #257B5E;
+}
+.registBtn{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
